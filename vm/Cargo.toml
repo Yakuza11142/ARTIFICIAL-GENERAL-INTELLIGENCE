@@ -1,0 +1,11 @@
+[package]
+name = "upll-vm"
+version = "0.1.0"
+edition = "2021"
+authors = ["UPLL Core Systems Team"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+thiserror = "1.0.61"
+serde = { version = "1.0", features = ["derive"] }
+tracing = "0.1.40"
